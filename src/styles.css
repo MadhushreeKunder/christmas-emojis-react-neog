@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --input-box: #006064;
+  --bg-color: azure;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+#inputBox {
+  padding: 1rem;
+  width: 60%;
+  border: 5px solid var(--input-box);
+  border-radius: 1cm;
+  font-size: 1rem;
+}
+
+.emoji-list {
+  padding: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: inline;
+}
+
+h3 {
+  color: var(--input-box);
+}
